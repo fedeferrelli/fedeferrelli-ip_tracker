@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | IP Address Tracker</title>
+
+  <link rel="stylesheet" href="./assets/normalize.css">
+  <link rel="stylesheet" href="./styles/style.css">
+
+  <!-- Fuentes -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+
+  <!-- Mapas css  -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+  integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+  crossorigin=""/>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+ 
+</head>
+<body id="body">
+
+  <header class="header" id="header">
+
+    <h1 class="title" id="title"> IP Address Tracker</h1>
+
+    <div class="search" id="search">
+      <input class="input" id="input" type="text" placeholder="Search for any IP address or domain">
+      <button class="boton" id="boton" type="submit"><img class="arrow" src="./images/icon-arrow.svg" alt=""></button>
+    </div>
+
+    <div class="data">
+      <div class="ip_address data_detail">
+        <div class="ip_txt data_txt">IP Address</div>
+        <div class="ip_num data_num" id="ip_num"> </div>
+      </div>
+
+      <div class="location data_detail">
+        <div class="ip_txt data_txt">Location</div>
+        <div class="location_numb data_num" id="location"> </div>
+      </div>
+
+      <div class="timezone data_detail">
+        <div class="ip_txt data_txt">Timezone</div>
+        <div class="timezone_numb data_num" id="timezone"> </div>
+      </div>
+
+      <div class="isp data_detail">
+        <div class="ip_txt data_txt">ISP</div>
+        <div class="isp_numb data_num" id="isp"> </div>
+      </div>
+    </div>
+
+    <div class="error" id="error">
+      <h1 class="oops">Oops...</h1>
+      <h3 class="leyenda-title">Parece que algo malió sal </h3>
+      <p class="leyenda">Por favor verificá la dirección IP ingresada</p>
+      <button class="error-btn" id="error-btn">Ok!</button>
+    </div>
+
+  </header>
+
+
+
+  <section class="mapa">
+
+    <div class="map" id="map"> </div>
+
+  </section>
+  
+
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/fedeferrelli">Federico Ferrelli Mazza</a>.
+  </div>
+
+
+
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+   integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+   crossorigin=""></script>
+  <script src="/js/main.js"></script>
+
+
+</body>
+</html>
