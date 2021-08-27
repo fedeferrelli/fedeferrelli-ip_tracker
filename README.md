@@ -2,24 +2,6 @@
 
 This is a solution to the [IP address tracker challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/ip-address-tracker-I8-0yYAH0). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
-## Table of contents
-
-- [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
-- [Author](#author)
-- [Acknowledgments](#acknowledgments)
-
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
-## Overview
-
 ### The challenge
 
 Users should be able to:
@@ -31,7 +13,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: (https://vigilant-meitner-a947c1.netlify.app/)
+- [Live Site](https://vigilant-meitner-a947c1.netlify.app/)
 
 ## My process
 
@@ -44,5 +26,5 @@ Users should be able to:
 - Java Script
 - Axios
 - [LeafletJS](https://leafletjs.com/)
-- mapbox(https://docs.mapbox.com/api/maps/static-tiles/)
-- IP Geolocation API by IPify(https://geo.ipify.org/)
+- [mapbox](https://docs.mapbox.com/api/maps/static-tiles/)
+- [IP Geolocation API by IPify](https://geo.ipify.org/)
